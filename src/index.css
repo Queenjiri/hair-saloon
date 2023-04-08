@@ -1,0 +1,45 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+h1{
+  font-size: 25px;
+  color:#00235B;
+  font-weight: bold;
+  /* position: relative; */
+}
+.showcase{
+  display:flex;
+  
+  /* position: absolute; */
+   padding:15px;
+   width:90%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.links{
+ 
+  display:flex; 
+
+}
+
+a{
+  text-decoration: none;
+ margin: 0px 30px;
+ color:#ce1581;
+ font-weight:bold;
+}
+.links li{
+  list-style-type: none;
+}
+/* 
+.burger{
+  width:25px;
+  height:6vh;
+  margin:3px;
+  background-color: #E21818;
+} */
